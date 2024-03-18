@@ -53,8 +53,8 @@ streamlit run init.py
 The repository contains the following files:
 - `__init__.py`: The main Streamlit application file.
 - `voting_clf.joblib`: Main model used to perform prediction in application. It is an ensemble of all the models trained.
-- `model_training`: Directory containing Jupyter Notebook files or Python scripts used for training the machine learning models. This can include files with hyperparameter tuning, cross-validation, and model evaluation.
-- `saved_models`: Directory containing all saved model files, such as joblib files, pickle files, or any other serialized model objects. This directory would include the `voting_clf.joblib` file mentioned earlier.
+- `notebooks`: Directory containing Jupyter Notebook files or Python scripts used for training the machine learning models. This can include files with hyperparameter tuning, cross-validation, and model evaluation.
+- `models`: Directory containing all saved model files, such as joblib files, pickle files, or any other serialized model objects. This directory would include the `voting_clf.joblib` file mentioned earlier.
 - `requirements.txt`: File listing all the required Python packages and their versions.
 - `README.md`: This file, providing an overview of the project and instructions for running the application.
 
