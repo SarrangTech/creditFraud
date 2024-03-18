@@ -58,6 +58,10 @@ The repository contains the following files:
 - `requirements.txt`: File listing all the required Python packages and their versions.
 - `README.md`: This file, providing an overview of the project and instructions for running the application.
 
+### Deployment
+1. The project has been deployed as a Streamlit web application. Users can access the application at (https://creditfrauddetector.streamlit.app/.)
+2. To test the prototype upload `finddefault\input_test_UI.csv` which is small sample of fraudulent transactions
+Getting Started
 ### Future Work:
 1. Collect a more extensive dataset spanning a longer period to capture a broader range of fraudulent activities.
 2. Explore advanced techniques for handling imbalanced data, such as ensemble methods and anomaly detection algorithms.
