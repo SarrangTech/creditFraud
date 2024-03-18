@@ -3,9 +3,12 @@ import pandas as pd
 import joblib
 import base64
 import io
+import gzip
 
 # Load the model
-model = joblib.load("C:\\Users\\Sarrang\\FindDefault\\saved models\\voting_clf.joblib")
+with gzip.open("D:\\DS Bootcamp\\projects\\creditFraud\\saved models\\voting_clf_compressed.joblib.gz", 'rb') as f:
+    # Load the model from the compressed file
+    model = joblib.load(f)
 st.title('Fraudulent Transaction Detection')
 
 uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
