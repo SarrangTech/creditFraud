@@ -6,7 +6,7 @@ import io
 import gzip
 
 # Load the model
-with gzip.open("D:\\DS Bootcamp\\projects\\creditFraud\\saved models\\voting_clf_compressed.joblib.gz", 'rb') as f:
+with gzip.open("saved models/voting_clf_compressed.joblib.gz", 'rb') as f:
     # Load the model from the compressed file
     model = joblib.load(f)
 st.title('Fraudulent Transaction Detection')
