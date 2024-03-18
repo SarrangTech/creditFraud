@@ -1,13 +1,25 @@
 [tool.poetry]
 name = "finddefault"
 version = "0.1.0"
-description = ""
+description = "Prediction of Credit Card fraud"
 authors = ["SarrangTech <bathalapalli9920@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-
+altair = "^5.2.0"
+joblib = "^1.3.2"
+lightgbm = "^4.3.0"
+pandas = "^2.2.0"
+scikit-learn = "^1.2.2"
+streamlit = "^1.32.2"
+tzdata = "^2024.1"
+tzlocal = "^5.2"
+urllib3 = "^2.2.1"
+xgboost = "^2.0.3"
+zipp = "^3.18.1"
+zope.event = "^5.0"
+zope.interface = "^6.2"
 
 [build-system]
 requires = ["poetry-core"]
